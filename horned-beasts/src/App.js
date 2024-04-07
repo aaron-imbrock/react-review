@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div>
       <Header creator={"Aaron Imbrock"} />
-      {/* <Main />
-      <Footer /> */}
+      <Main />
+      <Footer />
     </div>
   );
 }
