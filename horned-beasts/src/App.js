@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div class="bg-green-600 w-9/12 shadow rounded">
       <Header />
       <Gallery />
       <Footer author="Aaron Imbrock" />

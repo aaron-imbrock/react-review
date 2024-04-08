@@ -2,7 +2,7 @@ import { Component } from "react";
 
 class Header extends Component {
   render() {
-    return <h1>This is a title.</h1>;
+    return <h1 className="text-3xl font-bold underline">Gallery of Beasts</h1>;
   }
 }
 
