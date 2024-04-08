@@ -1,18 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header';
-import Main from './components/main';
-import Footer from './components/footer';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Header creator={"Aaron Imbrock"} />
-      <Main />
-      <Footer />
+      <Header />
+      <Gallery />
+      <Footer author="Aaron Imbrock" />
     </div>
   );
 }
-
 
 export default App;
